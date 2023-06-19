@@ -4,6 +4,7 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
+      <p> Please find <a target="_blank" rel="noopener noreferrer" className="tab4" href={process.env.PUBLIC_URL + "/images/Rama Santayana Resume 031821.pdf"}>  My resume</a> Here </p>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
