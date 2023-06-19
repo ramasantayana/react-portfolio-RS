@@ -1,5 +1,6 @@
 import React from 'react';
 
+import MyForm from "../MyForm/index.js";
 export default function Contact() {
   return (
     <div>
@@ -19,6 +20,8 @@ export default function Contact() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
+      <br />
+        <MyForm />
     </div>
   );
 }
