@@ -2,6 +2,7 @@ import React from 'react';
 import "./portfiolio.css";
 let project1Picture = "/images/Password Generator.png";
 let project2Picture = "/images/WorkDay Scheduler.png";
+let project3Picture = "/images/JS Bootcamp Code Quiz.png";
 export default function Portfolio() {
   return (
     <div>
@@ -26,7 +27,12 @@ export default function Portfolio() {
       <p>For the code click <a target="_blank" href="https://github.com/ramasantayana/Work-Day-Scheduler-RS">here</a></p>
       </div>
 
+      <div class = "project"> 
+        <h2>Project 3</h2>
       <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
+      <p>For the code click <a target="_blank" href="https://github.com/ramasantayana/Work-Day-Scheduler-RS">here</a></p>
+      </div>
+      
       <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
       <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
       <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
