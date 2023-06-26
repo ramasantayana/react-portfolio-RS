@@ -29,10 +29,10 @@ export default function Portfolio() {
 
       <div class = "project"> 
         <h2>Project 3</h2>
-      <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
+      <img height = "500px" src={process.env.PUBLIC_URL + project3Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
       <p>For the code click <a target="_blank" href="https://github.com/ramasantayana/Work-Day-Scheduler-RS">here</a></p>
       </div>
-      
+
       <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
       <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
       <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
