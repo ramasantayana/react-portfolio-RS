@@ -1,6 +1,7 @@
 import React from 'react';
-import "./portfiolio.css"
-let myPicture = "/images/FB0E4CA2-7EE0-4857-B78A-70FD6E81963C.jpg"
+import "./portfiolio.css";
+let project1Picture = "/images/Password Generator.png";
+let project2Picture = "/images/WorkDay Scheduler.png";
 export default function Portfolio() {
   return (
     <div>
@@ -15,15 +16,15 @@ export default function Portfolio() {
       </p>
       <div class = "project"> 
         <h2>Project 1</h2>
-      <img height = "500px" src={process.env.PUBLIC_URL + myPicture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
+      <img height = "500px" src={process.env.PUBLIC_URL + project1Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
       <p>For the code click <a href="git hub link for first project">here</a></p>
       </div>
       
-      <img height = "500px" src={process.env.PUBLIC_URL + myPicture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
-      <img height = "500px" src={process.env.PUBLIC_URL + myPicture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
-      <img height = "500px" src={process.env.PUBLIC_URL + myPicture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
-      <img height = "500px" src={process.env.PUBLIC_URL + myPicture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
-      <img height = "500px" src={process.env.PUBLIC_URL + myPicture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
+      <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
+      <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
+      <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
+      <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
+      <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
     </div>
   );
 }
