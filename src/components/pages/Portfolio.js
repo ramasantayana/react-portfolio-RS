@@ -29,8 +29,8 @@ export default function Portfolio() {
 
       <div class = "project"> 
         <h2>Project 3</h2>
-      <img height = "500px" src={process.env.PUBLIC_URL + project3Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
-      <p>For the code click <a target="_blank" href="https://github.com/ramasantayana/Work-Day-Scheduler-RS">here</a></p>
+        <a target="_blank" href="https://ramasantayana.github.io/js-bootcamp-code-quiz/"> <img height = "500px" src={process.env.PUBLIC_URL + project3Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" /></a>
+      <p>For the code click <a target="_blank" href="https://github.com/ramasantayana/js-bootcamp-code-quiz">here</a></p>
       </div>
 
       <img height = "500px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
