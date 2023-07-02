@@ -5,6 +5,7 @@ let project2Picture = "/images/WorkDay Scheduler.png";
 let project3Picture = "/images/JS Bootcamp Code Quiz.png";
 let project4Picture = "/images/Project 1.png";
 let project5Picture = "/images/Project 2.png";
+let project6Picture = "/images/Note Taker.png";
 export default function Portfolio() {
   return (
     <div>
@@ -37,7 +38,7 @@ export default function Portfolio() {
 
       <a target="_blank" href="https://odobashigenci.github.io/Bites-n--booze/homepage.html"> <img height = "400px" src={process.env.PUBLIC_URL + project4Picture} className=" float-left myPic" alt="Project 1 Picture" /></a>
       <a target="_blank" href="https://thawing-eyrie-64621.herokuapp.com/"> <img height = "400px" src={process.env.PUBLIC_URL + project5Picture} className=" float-left myPic" alt="Project 2 Picture" /></a>
-      <img height = "400px" src={process.env.PUBLIC_URL + project2Picture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
+      <a target="_blank" href="https://notetaker-rs.herokuapp.com/notes"> <img height = "400px" src={process.env.PUBLIC_URL + project6Picture} className=" float-left myPic" alt="Note Taker" /></a>
     </div>
   );
 }
