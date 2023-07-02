@@ -48,8 +48,11 @@ export default function Portfolio() {
       <p>For the code click <a target="_blank" href="https://github.com/Cashew1337/Travel-Planner">here</a></p>
       </div>
 
-
+      <div class = "project"> 
+        <h2>Project 6</h2>
       <a target="_blank" href="https://notetaker-rs.herokuapp.com/notes"> <img height = "400px" width = "400px" src={process.env.PUBLIC_URL + project6Picture} className=" float-left myPic" alt="Note Taker" /></a>
+      <p>For the code click <a target="_blank" href="https://github.com/ramasantayana/Express.js-Note-Taker-RS">here</a></p>
+      </div>
     </div>
   );
 }
