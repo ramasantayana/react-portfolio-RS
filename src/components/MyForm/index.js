@@ -15,7 +15,7 @@ render() {
         <div className="col-md-12 align-content-center">
           <form
             onSubmit={this.submitForm}
-            action="https://formspree.io/f/moqpvgqb"
+            action="https://formspree.io/f/xaygwkbl"
             method="POST"
           >
             <br />
