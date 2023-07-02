@@ -42,7 +42,13 @@ export default function Portfolio() {
       <p>For the code click <a target="_blank" href="https://github.com/odobashigenci/Bites-n--booze/branches">here</a></p>
       </div>
 
+      <div class = "project"> 
+        <h2>Project 5</h2>
       <a target="_blank" href="https://thawing-eyrie-64621.herokuapp.com/"> <img height = "400px" width = "400px" src={process.env.PUBLIC_URL + project5Picture} className=" float-left myPic" alt="Project 2 Picture" /></a>
+      <p>For the code click <a target="_blank" href="https://github.com/Cashew1337/Travel-Planner">here</a></p>
+      </div>
+
+
       <a target="_blank" href="https://notetaker-rs.herokuapp.com/notes"> <img height = "400px" width = "400px" src={process.env.PUBLIC_URL + project6Picture} className=" float-left myPic" alt="Note Taker" /></a>
     </div>
   );
