@@ -11,12 +11,7 @@ export default function Portfolio() {
     <div className="row">
       <h1>Portfolio</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      View an application by selecting its picture or clicking the link to the GitHub repository below.
       </p>
       <div className= "project col-md-5"> 
         <h2>Project 1: JavaScript Password Generator</h2>
