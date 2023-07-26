@@ -1,6 +1,6 @@
 # React-Portfolio
 
-I created a portfolio using my new React skills to help set me apart from other developers.  I received help from my coding tutor Suresh Kumar in completing this project.
+I created a portfolio using my new React skills to help set me apart from other developers.  I received help from my coding tutor Suresh Kumar in completing this project, as well as the Ask BCS team.
 
 Here is the link: https://ramasantayana.github.io/react-portfolio-rs
 
