@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-rs",
   "version": "0.1.0",
-  "homepage": "https://ramasantayana.github.io/react-portfolio-rs/",
+  "homepage": "https://ramasantayana.github.io/react-portfolio-rs",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

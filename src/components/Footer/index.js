@@ -1,9 +1,9 @@
 import React from 'react';
 
 import  './footer.css';
-let linkedInIcon = "/images/linkedinIcon.png";
-let gitHubIcon = "/images/gitHub.png";
-let instaIcon = "/images/insta.png";
+let linkedInIcon = "/Images/linkedinIcon.png";
+let gitHubIcon = "/Images/gitHub.png";
+let instaIcon = "/Images/insta.png";
 
 export default function Footer() {
   return (

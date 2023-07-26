@@ -1,11 +1,11 @@
 import React from 'react';
 import "./portfiolio.css";
-let project1Picture = "/images/Password Generator.png";
-let project2Picture = "/images/WorkDay Scheduler.png";
-let project3Picture = "/images/JS Bootcamp Code Quiz.png";
-let project4Picture = "/images/Project 1.png";
-let project5Picture = "/images/Project 2.png";
-let project6Picture = "/images/Note Taker.png";
+let project1Picture = "/Images/Password Generator.png";
+let project2Picture = "/Images/WorkDay Scheduler.png";
+let project3Picture = "/Images/JS Bootcamp Code Quiz.png";
+let project4Picture = "/Images/Project 1.png";
+let project5Picture = "/Images/Project 2.png";
+let project6Picture = "/Images/Note Taker.png";
 export default function Portfolio() {
   return (
     <div className="row">
