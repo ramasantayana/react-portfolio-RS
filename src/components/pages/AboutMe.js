@@ -6,7 +6,7 @@ export default function AboutMe() {
       <h1>About Me</h1>
       <img height = "150px" src={process.env.PUBLIC_URL + myPicture} className=" float-left myPic" alt="Rama Santyana Head Shot" />
       <p>
-        My name is Rama Santayana, and I am an accounting professional and MBA graduate hoping to transition into the field of Software Development.
+        My name is Rama Santayana, and I am an accounting professional and MBA hoping to transition into the field of Software Development.
       </p>
     </div>
   );
